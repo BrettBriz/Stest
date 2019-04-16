@@ -4,7 +4,6 @@ Library   SeleniumLibrary
 Resource   setup_teardown.robot
 
 *** Keywords ***
-
 Click Sign In Link
     wait until element is visible     ${sign_in}
     click element     ${sign_in}
