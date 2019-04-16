@@ -67,11 +67,10 @@ Assert number of items
 Add product to cart and verify update
    wait until keyword succeeds   2x    4s     wait until page contains element      ${add_to_cart}     10s
    click element     xpath=//div[@id='center_column']/ul/li[3]/div/div/div/a/img
-   #set focus to element     ${add_to_cart}
-   wait until keyword succeeds   2x    4s     click element      xpath=//div[3]/div/p/button/span
+   select frame     //iframe[@class='fancybox-iframe']
+   wait until keyword succeeds   2x    4s     click element     xpath=//button/span
    wait until page contains element      ${success_add}
    ${var}     get text    ${success_add}
    should contain   ${var}    successfully
-
 
 
