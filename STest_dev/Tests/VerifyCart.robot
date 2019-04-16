@@ -10,7 +10,7 @@ Resource            ../Lib/setup_teardown.robot
 
 
 *** Test Cases ***
-Sign in and verify Cart is empty
+Sign in and verify Tops and dresses and add item to cart
     Click Sign In Link
     Create Account
     Create Inputs User Info
