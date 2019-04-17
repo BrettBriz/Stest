@@ -6,7 +6,6 @@ Resource            ../Lib/setup_teardown.robot
 Test Setup          Setup Test
 Test Teardown       Teardown Test
 Force Tags          stest1
-Resource            ../Lib/setup_teardown.robot
 
 
 *** Test Cases ***

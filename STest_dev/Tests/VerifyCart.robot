@@ -1,12 +1,11 @@
 *** Settings ***
-Documentation       Test1
+Documentation       Test2
 Library             SeleniumLibrary
 Resource            ../Lib/setup_teardown.robot
 
 Test Setup          Setup Test
 Test Teardown       Teardown Test
-Force Tags          stest1
-Resource            ../Lib/setup_teardown.robot
+Force Tags          stest2
 
 
 *** Test Cases ***
